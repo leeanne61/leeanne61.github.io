@@ -1,0 +1,116 @@
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+
+.inter-text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.25rem; 
+  text-align: center;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+p, ol, ul {
+ font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  list-style-position: inside;
+}
+
+
+P {
+    line-height: 1.5rem;
+}
+
+      :root {
+        background-color: #F8FAFC;
+      }
+
+      .container {
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        grid-template: 
+            "header" auto
+            "list" 1fr
+            "line" auto
+            "policy" 1fr
+            "footer" auto;
+
+      }
+
+      .list, .policy { 
+        padding: 60px;
+        line-height: 2rem;
+        margin-top: 16px;
+        
+      }
+
+      .header {
+        grid-area: header;
+        background-color: #FFFFFF;
+        padding: 60px 15%;
+        display: flex;
+        flex-direction:column;
+        gap: 20px;
+        text-align: center;
+      }
+
+      .line {
+        color: #D2D5DA;
+        padding: 20px
+        
+      }
+
+      span {
+        font-weight: 600;
+      }
+
+      
+
+      body {
+        height: 100vh;
+      }
+
+      a {
+        text-decoration: none;
+        color: #4E80EE;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+      @media only screen and (min-width: 412px) and (max-width: 1350px) {
+        
+      }
+
+      
